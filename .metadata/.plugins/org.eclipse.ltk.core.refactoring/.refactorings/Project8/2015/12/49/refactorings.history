@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;DialogTest.java&apos; to &apos;DialogMain.java&apos;&#x0D;&#x0A;- Original project: &apos;Project8&apos;&#x0D;&#x0A;- Original element: &apos;DialogTest.java&apos;&#x0D;&#x0A;- Renamed element: &apos;DialogMain.java&apos;" description="Rename compilation unit &apos;DialogTest.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{DialogTest.java" name="DialogMain.java" references="false" stamp="1448955062613" version="1.0"/>
+</session>

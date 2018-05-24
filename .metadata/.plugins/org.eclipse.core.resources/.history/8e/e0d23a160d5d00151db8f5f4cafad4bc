@@ -1,0 +1,35 @@
+import java.util.*;
+
+public class r3_1
+{
+	public static void main (String[] args)
+	{
+		System.out.println("입력받은 정수 값에 있는 홀수와 짝수의 개수를 계산하는 프로그램입니다.\n");
+
+		int input = 0;				// 입력받은 정수 값 저장
+		int even = 0;				// 짝수의 개수
+		int odd = 0;				// 홀수의 개수
+		
+		// 입력
+		Scanner sc = new Scanner(System.in);
+		System.out.print("정수를 입력하세요 : ");
+		input = sc.nextInt();			// 정수 입력
+
+		// 짝수, 홀수 판단 - while문 사용
+		while ( input != 0 )			// 정수가 0이 될 때까지 계속 반복
+		{
+			if ( input % 2 == 0 )	// 2로 나누었을 때 나머지가 0이면 짝수
+				even++;				// 짝수의 개수 1 증가
+
+			else			// 2로 나누었을 때 나머지가 0이 아니면 홀수
+				odd++;				// 홀수의 개수 1 증가
+
+			input = input / 10;	// 10으로 나눔
+						// (계산이 끝난 1의 자리 숫자 떼어 버림)
+			
+		}
+		
+		// 출력
+		System.out.println("입력받은 정수 값에 있는 홀수는 " + odd + "개, 짝수는 " + even + "개 입니다.");
+	}
+}

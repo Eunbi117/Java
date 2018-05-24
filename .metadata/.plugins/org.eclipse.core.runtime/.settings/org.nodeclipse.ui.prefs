@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+express_pass=C\:\\Users\\user\\AppData\\Roaming\\npm\\express
+express_version=C\:\\Users\\user\\AppData\\Roaming\\npm\\express\:4case `uname` in^^^^SyntaxError\: Unexpected token case    at exports.runInThisContext (vm.js\:53\:16)    at Module._compile (module.js\:414\:25)    at Object.Module._extensions..js (module.js\:442\:10)    at Module.load (module.js\:356\:32)    at Function.Module._load (module.js\:313\:12)    at Function.Module.runMain (module.js\:467\:10)    at startup (node.js\:136\:18)    at node.js\:963\:3
+node_just_node=false
+node_pass_all_environment_variables=true
+node_path=C\:\\Program Files\\nodejs\\node.exe

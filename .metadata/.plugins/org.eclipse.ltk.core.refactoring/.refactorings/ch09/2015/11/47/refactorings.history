@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;MonetaryCoin.java&apos; to &apos;MonetaryCoinDriver.java&apos;&#x0D;&#x0A;- Original project: &apos;ch09&apos;&#x0D;&#x0A;- Original element: &apos;MonetaryCoin.java&apos;&#x0D;&#x0A;- Renamed element: &apos;MonetaryCoinDriver.java&apos;" description="Rename compilation unit &apos;MonetaryCoin.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{MonetaryCoin.java" name="MonetaryCoinDriver.java" references="false" stamp="1447913608620" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class play {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("어서오세요! 손님~ 자유이용권입니까? 입장권입니까?");
+		String ticket = scan.next();
+		
+		System.out.print("손님 나이가 어떻게 되십니까?(알바생은 몰래 현재시각을 입력해라 24시로 입력)");
+		int age = scan.nextInt();
+		int time = scan.nextInt();
+		
+		if(ticket.equals("자유이용권")){
+			if(time >= 8 && time < 17){
+				if(age >= 3 && age <= 12 && age >= 65){
+					
+				}
+			}
+		}
+	}
+
+}

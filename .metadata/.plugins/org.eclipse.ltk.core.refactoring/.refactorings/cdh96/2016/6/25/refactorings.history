@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;cdh96.계산기&apos; to &apos;gyesangi&apos;&#x0D;&#x0A;- Original project: &apos;cdh96&apos;&#x0D;&#x0A;- Original element: &apos;cdh96.계산기&apos;&#x0D;&#x0A;- Renamed element: &apos;cdh96.gyesangi&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;계산기&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;cdh96{계산기.java[계산기" matchStrategy="1" name="gyesangi" qualified="false" references="true" similarDeclarations="false" stamp="1466143894147" textual="false" version="1.0"/>
+</session>

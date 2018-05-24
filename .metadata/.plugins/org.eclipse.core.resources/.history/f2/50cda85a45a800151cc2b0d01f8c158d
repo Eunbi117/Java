@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class play {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("손님~ 자유이용권입니까? 입장권입니까?");
+		String ticket = scan.next();
+	}
+
+}

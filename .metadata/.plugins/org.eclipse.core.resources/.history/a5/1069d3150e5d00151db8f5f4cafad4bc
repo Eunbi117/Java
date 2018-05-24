@@ -1,0 +1,55 @@
+// 프로그래밍 문제 3-7
+// 현 연봉과 근무 평가등급에 따른 연봉 인상액과 새 연봉을 계산하여 출력하는 프로그램
+
+import java.util.*;
+
+public class r3_7
+{
+	public static void main (String[] args)
+	{
+		System.out.println("현 연봉과 근무 평가등급에 따른 연봉 인상액과 새 연봉을 계산하는 프로그램입니다.\n");
+
+		int annual_income = 0;				// 현 연봉
+		String grade;					// 근무 평가등급
+		double increased_amount = 0;			// 인상금액
+		boolean b_Check = true;	// 평가등급이 제대로 입력되었는지 확인
+
+		// 입력
+		Scanner sc = new Scanner(System.in);
+		System.out.print("현 연봉을 입력하세요 : ");
+		annual_income = sc.nextInt();			// 현 연봉 입력
+
+		while( b_Check )
+		{
+			System.out.print("근무 평가등급을 입력하세요(우수, 보통, 불량) : ");
+			grade = sc.next();			// 근무 평가등급 입력
+
+			// 근무 평가등급에 따라 연봉 인상액 계산
+			switch (grade)
+			{
+				case "우수":
+					increased_amount = annual_income * 0.06;
+							// 연봉 인상액은 현 연봉의 6%
+					b_Check = false;
+					break;
+				case "보통":
+					increased_amount = annual_income * 0.04;
+							// 연봉 인상액은 현 연봉의 4%
+					b_Check = false;
+					break;
+				case "불량":
+					increased_amount = annual_income * 0.02;
+							// 연봉 인상액은 현 연봉의 2%
+					b_Check = false;
+					break;
+				default:
+					System.out.println("평가등급을 잘못 입력하셨습니다.\n");
+					break;
+			}
+		}
+		
+		// 출력
+		System.out.println("연봉 인상액 : " + increased_amount);
+		System.out.println("새 연봉 : " + (annual_income + increased_amount));
+	}
+}

@@ -1,0 +1,48 @@
+
+public class A {
+	private int p;
+	private int n;
+	
+	public int getP() {
+		return p;
+	}
+	public void setP(int p) {
+		this.p = p;
+	}
+	public int getN() {
+		return n;
+	}
+	public void setN(int n) {
+		this.n = n;
+	}
+	
+	public String toString(){
+		String s = getN()+" ";
+		return s;
+	}
+	
+}
+
+public class B extends Driver{
+	private int m;
+
+	public int getM() {
+		return m;
+	}
+
+	public void setM(int m) {
+		this.m = m;
+	}
+	
+	public String toString(){
+		String s = getN()+" "+getM();
+		return s;
+	}
+	
+}
+
+public class Driver{
+	public static void main(String[] args) {
+		
+	}
+}

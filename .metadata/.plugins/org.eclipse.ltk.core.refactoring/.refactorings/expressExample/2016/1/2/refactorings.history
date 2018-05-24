@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;expressExample/views/layout.jade&apos; to &apos;layout.ejs&apos;" description="Rename resource &apos;layout.jade&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="views/layout.jade" name="layout.ejs" stamp="1451890146582" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;expressExample/views/index.jade&apos; to &apos;index.ejs&apos;" description="Rename resource &apos;index.jade&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="views/index.jade" name="index.ejs" stamp="1451890153221" updateReferences="true"/>
+</session>
